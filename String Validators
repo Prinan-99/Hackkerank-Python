@@ -1,0 +1,32 @@
+if __name__ == '__main__':
+    s = input()
+    flag=False
+    for i in s:
+        if i.isalnum():
+            flag=True
+            break
+    print(flag)
+    flag=False
+    for j in s:
+        if j.isalpha():
+            flag=True
+            break
+    print(flag)
+    flag=False
+    for k in s:
+        if k.isdigit():
+            flag=True
+            break
+    print(flag)
+    flag=False
+    for l in s:
+        if l.islower():
+            flag=True
+            break
+    print(flag)
+    flag=False
+    for  m in s:
+        if m.isupper():
+            flag=True
+            break
+    print(flag)
